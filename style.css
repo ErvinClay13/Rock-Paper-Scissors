@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#headText {
+  text-align: center;
+}
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 150px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  background-color: rgb(212, 255, 0);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.container {
+  background-color: rgb(121, 121, 121);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+.startBox {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.selectionBox {
+  display: flex;
+  justify-content: center;
+  gap: 91px;
+}
+
+/* // */
+.selections {
+  margin-top: 70px;
+  height: 100px;
+  width: 100px;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+.selections:hover {
+  opacity: 1;
+}
+.selectionText {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+.UserRock {
+  height: 350px;
+  width: 350px;
+}
+.CpuRock {
+  height: 350px;
+  width: 350px;
+}

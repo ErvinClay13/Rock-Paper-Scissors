@@ -1,3 +1,4 @@
+//Get elements
 const elements = {
   buttons: {
     rock: document.querySelector("#rockBtn"),

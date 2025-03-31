@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image.png" sizes="32x32" href="images/myLogo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock|Paper|Scissors</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="headText">
+        <h1 id="titleText">Rock Paper Scissors</h1>
+        <h1 id="rockText" style="display: none">ROCK</h1>
+        <h1 id="paperText" style="display: none">PAPER</h1>
+        <h1 id="scissorsText" style="display: none">SCISSORS</h1>
+        <h1 id="shootText" style="display: none">SHOOT</h1>
+        <h1 id="userWinText" style="display: none">YOU WIN!</h1>
+        <h1 id="cpuwinText" style="display: none">CPU WIN!</h1>
+        <h1 id="drawText" style="display: none">DRAW!</h1>
+        <h1 id="userWinGmText" style="display: none">YOU WIN THE GAME!</h1>
+        <h1 id="cpuWinGmText" style="display: none">CPU WIN THE GAME!</h1>
+      </div>
+      <div class="container">
+        <div class="startBox">
+          <div id="user">
+            <img
+              id="userRock"
+              src="images/UserRock.png"
+              alt=""
+              style="height: 350px; width: 350px"
+            />
+            <img
+              id="userResultPaper"
+              src="images/UserPaper.png"
+              alt=""
+              style="display: none; height: 350px; width: 350px"
+            />
+            <img
+              id="userResultScissors"
+              src="images/UserScissors.png"
+              alt=""
+              style="display: none; height: 350px; width: 350px"
+            />
+            <img
+              id="userResultRock"
+              src="images/UserRock.png"
+              alt=""
+              style="display: none; height: 350px; width: 350px"
+            />
+          </div>
+
+          <div id="cpu">
+            <img
+              id="cpuRock"
+              src="images/CpuRock.png"
+              alt=""
+              style="height: 350px; width: 350px"
+            />
+            <img
+              id="cpuResultPaper"
+              src="images/CpuPaper.png"
+              alt=""
+              style="display: none; height: 350px; width: 350px"
+            />
+            <img
+              id="cpuResultScissors"
+              src="images/CpuScissors.png"
+              alt=""
+              style="display: none; height: 350px; width: 350px"
+            />
+            <img
+              id="cpuResultRock"
+              src="images/CpuRock.png"
+              alt=""
+              style="display: none; height: 350px; width: 350px"
+            />
+          </div>
+        </div>
+
+        <div class="selectionBox">
+          <img
+            class="selections"
+            src="images/RockSelection.png"
+            alt=""
+            id="rockBtn"
+          />
+          <img
+            class="selections"
+            src="images/PaperSelection.png"
+            alt=""
+            id="paperBtn"
+          />
+          <img
+            class="selections"
+            src="images/ScissorsSelection.png"
+            alt=""
+            id="scissorsBtn"
+          />
+        </div>
+        <div class="selectionText">
+          <p>ROCK</p>
+          <p style="margin-left: 30px">PAPER</p>
+          <p style="margin-left: 10px">SCISSORS</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
